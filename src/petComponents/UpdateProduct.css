@@ -1,0 +1,51 @@
+.updateProduct_component{
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: auto;
+  border: 2px solid rgb(231, 225, 225);
+  margin-left: 30rem;
+  margin-top: 2rem;
+  border-radius: 20px;
+background: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&w=1200') center/cover;
+}
+.updateProduct_head{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2REM;
+}
+
+.updateProduct_component label{
+  margin-left: 2rem;
+  color: black;
+  margin-top: 2rem;
+}
+
+.field{
+  width: 90%;
+  padding: 2px;
+  margin-top: -1px;
+}
+
+.textarea{
+  width: 90%;
+  padding: 2px;
+  height: 5rem;
+  margin-left: 1.5rem;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: 2px solid gray;
+  margin-top: 1rem;
+
+}
+.file{
+  width: 90%;
+  padding: 2px;
+  margin-left: 3rem;
+  border-radius: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+

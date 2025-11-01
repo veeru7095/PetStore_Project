@@ -1,0 +1,37 @@
+.headerComponent{
+  display: flex;
+  align-items: start;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid grey;
+
+}
+
+.headerName{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10rem;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  margin-left: 13rem;
+  justify-content: center;
+  color: gray;
+  font-weight: 500;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;  
+}
+
+.header-list li{
+  margin-left: 18rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}

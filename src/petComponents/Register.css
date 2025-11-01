@@ -1,0 +1,51 @@
+.register_component{
+  height: 32em;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  border-radius: 20px;
+background: 
+    linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%),
+    url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&w=1200') center/cover;}
+
+.register_head{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.register_component label{
+  width: 90%;
+  height: 50px;
+  margin-left: 4rem ;
+  margin-top: 2rem;
+}
+
+.feild{
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: black;
+
+  font-size: 18px;
+  padding-left: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.register_btn{
+  background-color: yellow;
+  border: none; 
+  height: 40px;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 13rem;
+  cursor: pointer;
+}
+
+.login_link{
+  margin-left: 16rem;
+}
